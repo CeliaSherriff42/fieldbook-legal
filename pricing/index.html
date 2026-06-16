@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FieldBook Pricing</title>
+  <style>
+    :root {
+      --green: #2d5016;
+      --text: #1a1a1a;
+      --muted: #555;
+      --bg: #faf9f6;
+      --card: #fff;
+      --border: #e8e4dc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+    }
+    .wrap {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 2px solid var(--green);
+    }
+    h1 {
+      font-size: 1.75rem;
+      color: var(--green);
+      margin: 0 0 0.5rem;
+      font-family: system-ui, sans-serif;
+    }
+    .meta { color: var(--muted); font-size: 0.95rem; margin: 0; }
+    main {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.75rem 1.5rem;
+    }
+    h2 {
+      font-size: 1.15rem;
+      color: var(--green);
+      margin: 2rem 0 0.75rem;
+      font-family: system-ui, sans-serif;
+    }
+    h2:first-child { margin-top: 0; }
+    p, li { font-size: 1rem; }
+    ul { padding-left: 1.25rem; }
+    a { color: var(--green); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.98rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.6rem 0.75rem;
+      text-align: left;
+    }
+    th { background: #f3f1eb; font-family: system-ui, sans-serif; }
+    .price {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--green);
+      font-family: system-ui, sans-serif;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+      text-align: center;
+    }
+    .nav { margin-top: 0.75rem; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>FieldBook Pricing</h1>
+      <p class="meta"><strong>Last updated:</strong> 8 June 2026</p>
+      <p class="nav">
+        <a href="https://fieldbookfarm.com/">FieldBook app</a> ·
+        <a href="../terms/">Terms</a> ·
+        <a href="../privacy/">Privacy</a> ·
+        <a href="../refund/">Refund policy</a>
+      </p>
+    </header>
+
+    <main>
+      <h2>What you get</h2>
+      <p><strong>FieldBook</strong> is a B2B farm management subscription: cloud backup and sync, multi-worker PIN access, fields, spray programs, stock, water meters, and PDF reports. One subscription covers <strong>one farm</strong> (one manager account).</p>
+
+      <h2>Subscription (USD)</h2>
+      <p class="price">$29.99 / month — base farm plan</p>
+      <ul>
+        <li>Includes <strong>4 users</strong> (1 manager + 3 workers)</li>
+        <li><strong>+$5.99 / month</strong> for each additional worker seat</li>
+        <li>Billed monthly; renews automatically until you cancel</li>
+      </ul>
+
+      <table>
+        <thead>
+          <tr><th>Workers on farm</th><th>Monthly price (USD)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>4 (included)</td><td>$29.99</td></tr>
+          <tr><td>5</td><td>$35.98</td></tr>
+          <tr><td>6</td><td>$41.97</td></tr>
+          <tr><td>8</td><td>$53.95</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Where to subscribe</h2>
+      <ul>
+        <li><strong>Web</strong> — <a href="https://fieldbookfarm.com/">fieldbookfarm.com</a> (when billing is enabled)</li>
+        <li><strong>Android</strong> — Google Play (in-app subscription)</li>
+        <li><strong>iPhone / iPad</strong> — App Store (in-app subscription)</li>
+      </ul>
+      <p>Prices in your local currency are shown at checkout. The same farm account works on web and mobile when you sign in.</p>
+
+      <h2>Closed beta</h2>
+      <p>FieldBook is <strong>free during closed beta</strong> for invited testers. Paid subscriptions will be required for continued cloud access after beta; we will give notice before charging.</p>
+
+      <h2>Contact</h2>
+      <p>Celia Sherriff — FieldBook<br />
+      <a href="mailto:sherriffcelia@gmail.com">sherriffcelia@gmail.com</a></p>
+    </main>
+
+    <footer>
+      FieldBook ·
+      <a href="../terms/">Terms</a> ·
+      <a href="../privacy/">Privacy</a> ·
+      <a href="../refund/">Refund policy</a>
+    </footer>
+  </div>
+</body>
+</html>
